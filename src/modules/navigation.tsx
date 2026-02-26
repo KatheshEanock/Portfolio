@@ -55,7 +55,7 @@ export default function Navigation() {
               variant="outline"
               size="icon"
               onClick={toggleTheme}
-              className="hover:bg-primary/10 bg-transparent"
+              className="hover:bg-primary/10 bg-transparent hover:text-foreground cursor-pointer"
               aria-label="Toggle theme"
             >
               {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
@@ -71,7 +71,7 @@ export default function Navigation() {
                 link.download = "KatheshEanock-Resume.pdf";
                 link.click();
               }}
-              className="gap-2 hover:bg-primary/10"
+              className="gap-2 hover:bg-primary/10 hover:text-foreground bg-transparent cursor-pointer"
             >
               <Download size={16} />
               Download CV
@@ -79,7 +79,7 @@ export default function Navigation() {
 
             {/* CTA Button */}
             <Button
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer"
               onClick={() => handleNavClick("#contact")}
             >
               Get In Touch

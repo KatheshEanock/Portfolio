@@ -57,7 +57,7 @@ export default function Hero() {
         >
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground cursor-pointer"
             onClick={() => handleNavClick("#projects")}
           >
             View My Work
@@ -65,7 +65,7 @@ export default function Hero() {
           <Button
             size="lg"
             variant="outline"
-            className="border-border hover:bg-card bg-transparent"
+            className="border-border hover:bg-card bg-transparent cursor-pointer"
             onClick={() => handleNavClick("#contact")}
           >
             Get In Touch
@@ -105,7 +105,7 @@ export default function Hero() {
         <div className="animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
           <button
             onClick={() => handleNavClick("#about")}
-            className="inline-flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+            className="inline-flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
           >
             <span className="text-sm">Scroll to explore</span>
             <ArrowDown size={20} className="animate-bounce" />

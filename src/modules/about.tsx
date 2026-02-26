@@ -48,7 +48,7 @@ export default function About() {
           {/* Right Column */}
           <div>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm a passionate React developer with 1.3 years of hands-on
+              I'm a passionate React developer with 1.6 years of hands-on
               experience building user-centric applications. I specialize in
               creating pixel-perfect interfaces that are not only beautiful but
               also performant and maintainable.
@@ -75,14 +75,16 @@ export default function About() {
                   component architecture and state management
                 </p>
                 <div className="mt-3 flex gap-2 flex-wrap">
-                  {["React", "TypeScript", "Tailwind CSS"].map((tech) => (
-                    <span
-                      key={tech}
-                      className="text-xs px-2 py-1 bg-primary/10 text-primary rounded"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  {["React", "TypeScript", "JavaScript", "Tailwind CSS"].map(
+                    (tech) => (
+                      <span
+                        key={tech}
+                        className="text-xs px-2 py-1 bg-primary/10 text-primary rounded"
+                      >
+                        {tech}
+                      </span>
+                    ),
+                  )}
                 </div>
               </div>
 
@@ -102,7 +104,7 @@ export default function About() {
                   {["Algorithm", "Debugging", "Optimization"].map((skill) => (
                     <span
                       key={skill}
-                      className="text-xs px-2 py-1 bg-accent/10 text-accent rounded"
+                      className="text-xs px-2 py-1 bg-amber-100 text-amber-800 rounded"
                     >
                       {skill}
                     </span>

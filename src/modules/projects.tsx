@@ -4,13 +4,14 @@ import { ExternalLink, Github } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "User Management System",
+      title: "Task-Management-Dashboard",
       description:
-        "A comprehensive user management application built with Redux and Redux-Saga. Features include user creation, deletion, editing, and real-time state synchronization with advanced middleware handling.",
+        "A comprehensive Task management application built with Redux and Redux-Saga. Features include user creation, deletion, editing, and real-time state synchronization with advanced middleware handling.",
       tags: ["React", "Redux", "Redux-Saga", "TypeScript", "Tailwind CSS"],
       image: "/user-management-dashboard.jpg",
-      link: "#",
-      github: "#",
+      link: "https://task-management-dashboard-blue.vercel.app/",
+      github:
+        "https://github.com/KatheshEanock/Task-Management-Dashboard/tree/development",
     },
     {
       title: "E-commerce Dashboard",
@@ -18,18 +19,19 @@ export default function Projects() {
         "Built a responsive e-commerce dashboard with real-time data fetching using TanStack Query. Implemented caching strategies and optimistic updates for seamless user experience.",
       tags: ["React", "TanStack Query", "TypeScript", "API Integration"],
       image: "/ecommerce-dashboard-analytics.png",
-      link: "#",
-      github: "#",
+      link: "https://conceps-media-works.vercel.app",
+      github:
+        "https://github.com/KatheshEanock/conceps-media-works/tree/development",
     },
-    {
-      title: "Task Management App",
-      description:
-        "Created a task management application with Zustand for state management. Features include real-time updates, filtering, and persistent storage with a clean, intuitive interface.",
-      tags: ["React", "Zustand", "TypeScript", "Local Storage"],
-      image: "/task-management-app-interface.png",
-      link: "#",
-      github: "#",
-    },
+    // {
+    //   title: "Task Management App",
+    //   description:
+    //     "Created a task management application with Zustand for state management. Features include real-time updates, filtering, and persistent storage with a clean, intuitive interface.",
+    //   tags: ["React", "Zustand", "TypeScript", "Local Storage"],
+    //   image: "/task-management-app-interface.png",
+    //   link: "#",
+    //   github: "#",
+    // },
   ];
 
   return (
